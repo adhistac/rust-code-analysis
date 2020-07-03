@@ -28,7 +28,7 @@ In this page we have grouped the principal **types** of commands implemented in
 
 ## Metrics
 
-Metrics are a series of measures that can be used to:
+<a href="https://github.com/adhistac/rust-code-analysis/blob/master/rust-code-analysis-book/src/commands/metrics.md" target="_blank">Metrics</a> are a series of measures that can be used to:
 
 - Compare different programming languages
 - Provide information on the quality of a code
@@ -77,8 +77,7 @@ It counts the number of arguments of a function/method.
 
 To represent the structure of program code, **rust-code-analysis-cli** builds
 an
-<a href="https://en.wikipedia.org/wiki/Abstract_syntax_tree" target="_blank">Abstract Syntax Tree (AST)</a>.
-A **node** is an element of this tree and denotes any syntactic construct
+<a href="https://en.wikipedia.org/wiki/Abstract_syntax_tree" target="_blank">Abstract Syntax Tree (AST)</a>. A <a href="https://github.com/adhistac/rust-code-analysis/blob/adhistac-patch-1/rust-code-analysis-book/src/commands/nodes.md" target="_blank">node</a> is an element of this tree and denotes any syntactic construct
 present in a language.
 
 Nodes can be used to:
@@ -91,7 +90,4 @@ Nodes can be used to:
 
 ## REST API
 
-**rust-code-analysis-cli** can be run as a server which accepts requests sent
-through `REST API`.
-The server receives in input the filename of a source code file and returns the
-relative metrics formatted as a `json` file.
+**rust-code-analysis-cli** can be run as a server which accepts requests sent through <a href="https://github.com/adhistac/rust-code-analysis/blob/adhistac-patch-1/rust-code-analysis-book/src/commands/rest.md" target="_blank">REST API</a>.The server receives in input the filename of a source code file and returns the relative metrics formatted as a `json` file.
