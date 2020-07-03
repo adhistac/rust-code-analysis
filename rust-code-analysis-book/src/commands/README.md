@@ -1,22 +1,3 @@
-Included in this guide:
-
-- [Commands](#commands)
-- [Metrics](#metrics)
-    - [CC](#cc)
-    - [SLOC](#sloc)
-    - [PLOC](#ploc)
-    - [LLOC](#lloc)
-    - [CLOC](#cloc)
-    - [BLANK](#blank)
-    - [HALSTEAD](#halstead)
-    - [MI](#mi)
-    - [NOM](#nom)
-    - [NEXITS](#nexits)
-    - [NARGS](#nargs)    
-- [Nodes](#nodes)
-- [REST API](#rest-api)
-
-
 # Commands
 
 With the term **command**, we define any procedure used by
@@ -40,38 +21,24 @@ source code of a program. These kind of metrics are called *static metrics*.
 
 The list of metrics supported right now are the following ones:
 
-#### CC
-It calculates the code complexity examining the control flow of a program.
-
-#### SLOC
-It counts the number of lines in a source file.
-
-#### PLOC
-It counts the number of physical lines (instructions) contained in a source file.
-
-#### LLOC 
-It counts the number of logical lines (statements) contained in a source file.
-
-#### CLOC
-It counts the number of comments in a source file.
-
-#### BLANK
-It counts the number of blank lines in a source file.
-
-#### HALSTEAD
-It is a suite that provides a series of information, such as the effort required to maintain the analyzed code, the size in bits to store the program, the difficulty to understand the code, an estimate of the number of bugs present in the codebase, and an estimate of the time needed to implement the software.
-
-#### MI
-It is a suite that allows to evaluate the maintainability of a software.
-
-#### NOM
-It counts the number of functions and closures in a file/trait/class.
-
-#### NEXITS
-It counts the number of possible exit points from a method/function.
-
-#### NARGS
-It counts the number of arguments of a function/method.
+- **CC**: it calculates the code complexity examining the
+  control flow of a program.
+- **SLOC**: it counts the number of lines in a source file.
+- **PLOC**: it counts the number of physical lines (instructions) contained in
+  a source file.
+- **LLOC**: it counts the number of logical lines (statements) contained in
+  a source file.
+- **CLOC**: it counts the number of comments in a source file.
+- **BLANK**: it counts the number of blank lines in a source file.
+- **HALSTEAD**: it is a suite that provides a series of information, such as the
+  effort required to maintain the analyzed code, the size in bits to store the
+  program, the difficulty to understand the code, an estimate of the number of
+  bugs present in the codebase, and an estimate of the time needed to
+  implement the software.
+- **MI**: it is a suite that allows to evaluate the maintainability of a software.
+- **NOM**: it counts the number of functions and closures in a file/trait/class.
+- **NEXITS**: it counts the number of possible exit points from a method/function.
+- **NARGS**: it counts the number of arguments of a function/method.
 
 ## Nodes
 
